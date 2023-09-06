@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JOB</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-image: url('Image.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  width:100% 
+}
+
+.Logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+  
+main{
+  display: grid;
+  display: inline-grid;
+  column-gap: 50px;
+  row-gap: 50px;
+  width:100%
+}
+
+button {
+  font: bold 30px Arial;
+  background-color: #1D3557 ;
+  color: #F1FAEE;
+  border: 2px solid #F1FAEE; 
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  padding: 7%;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  height: 150px;
+  grid-template-rows: 20% 35%;
+  opacity: 0.90;
+}
+
+button:hover {
+  color: #457B9D; 
+  border: 2px solid #457B9D;
+}
+
+p{
+  grid-row: 1 / 2;
+  grid-column: 2 / 4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #F1FAEE;
+  text-align: center;
+  text-shadow: 1.5px 1.5px 7px #1D3557;
+}
+
+.item1 {
+   grid-row: 2 / 4;
+   grid-column: 2 / 3;
+}
+.item2 {
+   grid-row: 2 / 4;
+   grid-column: 3 / 4;
+}
+.item3 {
+   grid-row: 3 / 5;
+   grid-column: 4 / 4;
+}
+h3{
+    grid-row: 4 / 4;
+    grid-column: 2 / 4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    color: #F1FAEE;
+    text-shadow: 1.5px 1.5px 7px #1D3557;
+}
+</style>
+</head>
+<body>
+<header> 
+<img src="Logo.PNG" alt="Logo" class="Logo" width="40%" height="100%">
+<div class="space"></div>
+</header>
+
+<main>
+
+<p>
+Faster search and better opportunities<br>
+log in as a
+</p>
+
+<div class="item1">
+<button onclick="location.href='seeker-log-in.html'" type="button">job seeker</button>
+</div>
+
+<div class="item2">
+<button onclick="location.href='provider-log-in.html'" type="button" id="button1">job provider</button>
+</div>
+
+<div class="item3"></div>
+
+<h3>New job seeker? <a style="color:#E63946" href="signup.html">Sing up</a></h3>
+
+</main>
+</body>
+</html>
