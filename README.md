@@ -1,4 +1,4 @@
-# Job-Search-Website
+# Job Search Website
 
 ### About the project
 Job Search is an online job search system that improves the way job seekers and employers connect online.
